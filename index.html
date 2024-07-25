@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(17, 17, 52);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        color: rgb(165, 165, 232);
+        font-size: 1.02rem;
+      }
+
+      .left {
+        font-size: 1.5rem;
+        margin-left: 3%;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 90px 0;
+      }
+
+      .firstSection > div {
+        width: 25%;
+      }
+
+      .leftSection {
+        font-size: 1.7rem;
+        margin: 50px 0;
+      }
+
+      .rightSection img {
+        width: 80%;
+        margin: 50px 0;
+        border-radius: 20px;
+      }
+
+      .purple {
+        color: rgb(150, 91, 206);
+      }
+
+      #element {
+        color: rgb(150, 91, 206);
+      }
+
+      .secondSection {
+        max-width: 75vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+
+      .secondSection h1 {
+        font-size: 1.4rem;
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      .secondSection .box {
+        background-color: white;
+        width: 135vh;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 115px;
+      }
+
+      .image-top {
+        position: relative;
+        width: 50px;
+        top: -53px;
+        left: -20px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 81px;
+        left: -2px;
+        font-size: 14px;
+        width: 150px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 85px;
+        left: -2px;
+        color: rgb(221, 202, 202);
+        font-size: 9px;
+        width: 150px;
+      }
+
+      footer{
+        background-color: rgb(21, 21, 50);
+        height: 200px;
+        }
+
+      .footer{
+        display: flex;
+        margin: 23px 122px;
+        justify-content: space-evenly;
+      }  
+
+      .footer ul{
+        list-style: none;
+      }
+
+      .footer > div{
+        width: 200px;
+      }
+
+      .footer .footer-right{
+        text-align: center;
+        color: rgb(194, 8, 8);
+        font-size: 8px;
+        margin-top: 20px;
+      }
+
+      .footer .footer-first{
+        font-size: 10px;
+        position: relative;
+        margin-left: -80px;
+        margin-top: 20px;
+        color: #c773de;
+      }
+
+      .footerimg{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        margin-left: 15px;
+      }
+
+      .desc{
+      color: #d2f5d1;
+      font-family: inherit;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img src="img/Portfolio.png" alt="Photo" height="75px" width="75px" style="float: left; border-radius: 35px; " >
+        <div class="left" style="color: rgb(242, 165, 242);">Adarsh's Portfolio</div>
+
+        <div class="right">
+          <ul>
+            <li><a href="https://github.com/adarshraghav26">Projects</a></li>
+            <li><a href="https://www.linkedin.com/in/adarshraghav26">LinkedIn</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Adarsh</span>
+          <div>and I am a passionate</div>
+          <!--<div>Web Developer</div>-->
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="img/bg.jpg" alt="Web Developer" height="220px" />
+        </div>
+      </section><br>
+
+      <div>
+        <center>
+        <embed src="Resume.pdf" type="application/pdf" width="100%" height="1200px" />
+      </center>
+      </div>
+
+
+      <hr />
+
+      <section class="secondSection">
+        
+        <center>
+        <h1>Work Experience</h1><br><br><br>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="img/developer.png" />
+            <div class="vertical-title">
+              <p style=" text-decoration: underline;">Junior Web Designer</p><br><br>
+              <p style="font-size:small;color: #dd5757;">Number Jack CO</p> <br><br>
+              <p style="font-size:small;">(Aug,2020 - Sept,2020)</p> 
+            </div><br>
+            <div class="vertical-desc">
+              <p class="desc">Responsible for creating UI/UX Design of Graphic Card Website for Final Year Project of graduation using Web Technologies HTML, CSS and Bootstrap for Website Creation.</p>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="img/react.png" />
+            <div class="vertical-title">
+              <p style=" text-decoration: underline;">Front-end Web Developer Intern</p><br>
+              <p style="font-size:small;color: #dd5757;">Wayspire Ed-Tech Pvt. Ltd.</p> <br>
+              <p style="font-size:small;">(Aug,2023 - Feb,2024)</p>
+            </div><br>
+            <div class="vertical-desc">
+              <p class="desc">• Collaborated with team to create user-friendly, interactive websites using a variety of front-end programming languages including JavaScript, HTML, CSS.</p><br>
+              <p class="desc">• Conceptualized, created and managed dynamic web pages for data display and entry using appropriate technologies (PHP, XAMPP, Node.js)</p><br>
+              <p class="desc">• Fetched, parsed and formatted analytical data, and relayed it into React Components.</p><br>
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="img/net.jpg" style="top: -40px;" />
+            <div class="vertical-title"><br>
+              <p style=" text-decoration: underline;">.NET Developer Intern</p><br><br>
+              <p style="font-size:small; color: #dd5757;">NIC, MHA, North Block</p> <br><br>
+              <p style="font-size:small;">(Jan,2024 - Apr,2024)</p>
+            </div><br>
+            <div class="vertical-desc">
+              <p class="desc">• As a developer involved in design and developing Web Forms using ASP.NET and C#.</p><br>
+              <p class="desc">• All the user interface layers, web pages are created and integrated to maintain the performance of the data flow and data integrity using ASP.NET User Controls, Web Server Controls and ADO.NET. </p><br>
+              <p class="desc">• Implemented SQL for database management resulting in enhanced data retrieval speed.</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </center>
+    </main><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Adarsh Developers Portfolio</h3><br />
+            </div>
+            
+            <div class="footer-second" style="margin-top: 20px; margin-left: 90px;">
+                Contact Me :<br />
+                 <p style="font-size: 14px; margin-top: 10px; margin-left: -35px; color: grey ;" >radarsh2011@gmail.com</p>
+                <p style ="margin-top:  10px; font-size: 14px; margin-left: -7px; color: grey;" >+91 8287836533</p>
+                <br />
+
+                <span>
+                 <a style="margin-left: 25px;" href="https://www.linkedin.com/in/adarshraghav26"> <img src="img/linkedin.png"></a> 
+                </span> 
+            </div>
+
+            <div class="footer-right">
+                <a href="https://wellfound.com/adarsh-raghav-2"><img class="footerimg" src="img/wellfound.png" /></a>
+                <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-messaging--messaging-webapp"><img class="footerimg"  src="img/indeed.png" /></a>
+                <a href="https://www.glassdoor.co.in/member/profile"><img class="footerimg"  src="img/glassdorr.png" /></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Data Analyst", "<i>Web Developer."],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+</html>
